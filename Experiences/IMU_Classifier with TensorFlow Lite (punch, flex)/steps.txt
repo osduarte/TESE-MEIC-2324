@@ -1,0 +1,7 @@
+https://wiki.seeedstudio.com/XIAO-BLE-Sense-TFLite-Getting-Started/
+
+https://github.com/lakshanthad/tflite-micro-arduino-examples
+
+
+TensorFlow Lite on Seeed Studio XIAO nRF52840 Sense for decteting punch and flex
+

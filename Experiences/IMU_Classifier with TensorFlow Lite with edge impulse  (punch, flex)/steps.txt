@@ -1,0 +1,11 @@
+https://wiki.seeedstudio.com/XIAOEI/
+
+Seeed Studio XIAO nRF52840 Sense Edge Impulse Getting Started
+
+1. Collect data directly to edge impulse - "xiao_ble_sense_accelerometer_rawdata"
+
+2. Create and train a model in Edge Impuslse
+Spectral Analysis - Great for analyzing repetitive motion, such as data from accelerometers. Extracts the frequency and power characteristics of a signal over time.
+Classification - Learns patterns from data, and can apply these to new data. Great for categorizing movement or recognizing audio.
+
+3. Upload the library, tensorflow lite and model to the microcontroller - "XIAOEI"
