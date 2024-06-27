@@ -1,0 +1,19 @@
+﻿  main.c
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1426,1): warning C4005: 'max': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(1282,1): message : see previous definition of 'max'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1765,125): warning C4048: different array subscripts: 'float (*)[3][4]' and 'float [128][3][8]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1766,62): warning C4048: different array subscripts: 'float (*)[4][8]' and 'float [128][3][8]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1767,72): warning C4048: different array subscripts: 'float (*)[3][8]' and 'float [42][1][8]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1768,112): warning C4048: different array subscripts: 'float (*)[10][16]' and 'float [16][4][8]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1768,138): warning C4048: different array subscripts: 'float (*)[1][8]' and 'float [42][1][16]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1769,48): warning C4048: different array subscripts: 'float (*)[3][8]' and 'float [42][1][16]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1769,62): warning C4048: different array subscripts: 'float (*)[3][8]' and 'float [14][1][16]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1842,118): warning C4048: different array subscripts: 'float (*)[3][4]' and 'float [128][3][8]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1844,64): warning C4048: different array subscripts: 'float (*)[3][8]' and 'float [42][1][8]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1846,104): warning C4048: different array subscripts: 'float (*)[10][16]' and 'float [16][4][8]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1846,130): warning C4048: different array subscripts: 'float (*)[1][8]' and 'float [42][1][16]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1848,40): warning C4048: different array subscripts: 'float (*)[3][8]' and 'float [42][1][16]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1848,54): warning C4048: different array subscripts: 'float (*)[3][8]' and 'float [14][1][16]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1855,33): warning C4047: 'function': 'float *' differs in levels of indirection from 'float [1][4]'
+C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\main.c(1855,33): warning C4024: 'softmax': different types for formal and actual parameter 2
+  CompactMW.vcxproj -> C:\Users\Olga Duarte\Documents\GitHub\TESE-MEIC-2324\CompactMW\x64\Debug\CompactMW.exe
