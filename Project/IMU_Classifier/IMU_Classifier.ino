@@ -41,8 +41,8 @@ byte tensorArena[tensorArenaSize] __attribute__((aligned(16)));
 
 // array to map gesture index to a name
 const char* GESTURES[] = {
-  "punch",
-  "flex"
+  "Bicepcurl_Correto_A1_putty0506",
+  "Tricep_Correto_A6_putty0506"
 };
 
 #define NUM_GESTURES (sizeof(GESTURES) / sizeof(GESTURES[0]))
@@ -171,7 +171,7 @@ void loop() {
               display.setCursor(32, 17);
               display.println(GESTURES[i]);
               display.display();
-              delay(1000);
+              //delay(1000);
           }
         }
         Serial.println();
