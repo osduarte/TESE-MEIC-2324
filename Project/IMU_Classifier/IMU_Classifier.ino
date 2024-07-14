@@ -14,8 +14,10 @@
 
 #include "model.h"
 
+#define CONVERT_G_TO_MS2 9.80665f
+
 const float accelerationThreshold = 2.5; // threshold of significant in G's
-const int numSamples = 119;
+const int numSamples = 155;
 
 int samplesRead = numSamples;
 
@@ -41,8 +43,12 @@ byte tensorArena[tensorArenaSize] __attribute__((aligned(16)));
 
 // array to map gesture index to a name
 const char* GESTURES[] = {
-  "Bicepcurl_Correto_A1_putty0506",
-  "Tricep_Correto_A6_putty0506"
+  "Bicepcurl_Correto",
+  "Bicepcurl_Errado",
+  "Shoulderpress_Correto",
+  "Shoulderpress_Errado",
+  "Tricep_Correto",
+  "Tricep_Errado"
 };
 
 #define NUM_GESTURES (sizeof(GESTURES) / sizeof(GESTURES[0]))
@@ -56,7 +62,7 @@ const char* GESTURES[] = {
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   while (!Serial);
 
   if (myIMU.begin() != 0) {
@@ -111,9 +117,9 @@ void loop() {
   // wait for significant motion
   while (samplesRead == numSamples) {
       // read the acceleration data
-      aX = myIMU.readFloatAccelX();
-      aY = myIMU.readFloatAccelY();
-      aZ = myIMU.readFloatAccelZ();
+      aX = myIMU.readFloatAccelX() * CONVERT_G_TO_MS2;
+      aY = myIMU.readFloatAccelY() * CONVERT_G_TO_MS2;
+      aZ = myIMU.readFloatAccelZ() * CONVERT_G_TO_MS2;
 
       // sum up the absolutes
       float aSum = fabs(aX) + fabs(aY) + fabs(aZ);
@@ -131,13 +137,25 @@ void loop() {
   while (samplesRead < numSamples) {
     // check if new acceleration AND gyroscope data is available
       // read the acceleration and gyroscope data
-      aX = myIMU.readFloatAccelX();
-      aY = myIMU.readFloatAccelY();
-      aZ = myIMU.readFloatAccelZ();
+      aX = myIMU.readFloatAccelX() * CONVERT_G_TO_MS2;
+      //Serial.print("ax:");
+      //Serial.println(aX);
+      aY = myIMU.readFloatAccelY() * CONVERT_G_TO_MS2;
+      //Serial.print("aY:");
+      //Serial.println(aY);
+      aZ = myIMU.readFloatAccelZ() * CONVERT_G_TO_MS2;
+      //Serial.print("aZ:");
+      //Serial.println(aZ);
 
       gX = myIMU.readFloatGyroX();
+      //Serial.print("gX:");
+      //Serial.println(gX);
       gY = myIMU.readFloatGyroY();
+      //Serial.print("gY:");
+      //Serial.println(gY);
       gZ = myIMU.readFloatGyroZ();
+      //Serial.print("gZ:");
+      //Serial.println(gZ);
 
       // normalize the IMU data between 0 to 1 and store in the model's
       // input tensor
@@ -164,6 +182,7 @@ void loop() {
           Serial.print(GESTURES[i]);
           Serial.print(": ");
           Serial.println(tflOutputTensor->data.f[i], 6);
+          /* //LED
           if(tflOutputTensor->data.f[i] > 0.8){
               //display.clearDisplay();
               display.setTextSize(2);
@@ -172,7 +191,7 @@ void loop() {
               display.println(GESTURES[i]);
               display.display();
               //delay(1000);
-          }
+          }*/
         }
         Serial.println();
       }
