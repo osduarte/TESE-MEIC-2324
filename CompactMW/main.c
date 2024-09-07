@@ -188,6 +188,7 @@ float data1[BATCH][DATA_SIZE] =
  {-640,	222,	736},
  {-634,	221,	787} };
 
+ /*
 float data2[BATCH][DATA_SIZE] =
 { {0,	0,	0},
  {0,	0,	0},
@@ -1039,6 +1040,7 @@ float data10[BATCH][DATA_SIZE] =
  {240.0,160.0,1019.0},
  {233.0,134.0,1055.0},
  {216.0,202.0,1012.0} };
+ */
 
 
 float firstKernel[FIRST_NUM_KERNELS][FIRST_NUM_ROWS][FIRST_NUM_COLS] =

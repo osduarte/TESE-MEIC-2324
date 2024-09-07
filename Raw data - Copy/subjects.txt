@@ -1,4 +1,4 @@
-A1 -  masculino - 19 anos - 1.75/60kg
+A1 - masculino - 19 anos - 1.75/60kg
 A2 - masculino - 62 anos - 1.80/85kg
 A3 - masculino - 20 anos - 1.80/115kg
 A4 - masculino - 25 anos - 1.77/91kg
