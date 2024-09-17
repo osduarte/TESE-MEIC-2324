@@ -4,5 +4,6 @@ BLE - IMU_BLE - testing BLE with simple acc and gyro
 IMU_Capture - collect acc and gyro without BLE (specific number of samples)
 IMU_Classifier - set in the micro the NN Model.h to see if the movement is recognized
 MODEL_Training - Model training in google colab
+	generates the model to use in the IMU_Classifier
 OLED - Testing simple example of OLED
 References - article references
