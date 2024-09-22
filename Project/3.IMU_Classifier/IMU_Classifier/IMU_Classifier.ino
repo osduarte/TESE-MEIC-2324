@@ -27,9 +27,7 @@ LSM6DS3 myIMU(I2C_MODE, 0x6A);
 // global variables used for TensorFlow Lite (Micro)
 tflite::MicroErrorReporter tflErrorReporter;
 
-// pull in all the TFLM ops, you can remove this line and
-// only pull in the TFLM ops you need, if would like to reduce
-// the compiled size of the sketch.
+// pull in all the TFLM ops, you can remove this line and only pull in the TFLM ops you need, if would like to reduce the compiled size of the sketch.
 tflite::AllOpsResolver tflOpsResolver;
 
 const tflite::Model* tflModel = nullptr;
@@ -37,72 +35,71 @@ tflite::MicroInterpreter* tflInterpreter = nullptr;
 TfLiteTensor* tflInputTensor = nullptr;
 TfLiteTensor* tflOutputTensor = nullptr;
 
-// Create a static memory buffer for TFLM, the size may need to
-// be adjusted based on the model you are using
-constexpr int tensorArenaSize = 8 * 1024;
+// Create a static memory buffer for TFLM
+constexpr int tensorArenaSize = 5 * 1024;
 byte tensorArena[tensorArenaSize] __attribute__((aligned(16)));
 
 // array to map gesture index to a name
 const char* GESTURES[] = {
   //"Bicepcurl_Correto",
   //"Bicepcurl_Errado",
-  "Shoulderpress_Correto",
-  "Shoulderpress_Errado"//,
-  //"Tricep_Correto",
-  //"Tricep_Errado"
+  //"Shoulderpress_Correto",
+  //"Shoulderpress_Errado"//,
+  "Tricep_Correto",
+  "Tricep_Errado"
 };
 
 #define NUM_GESTURES (sizeof(GESTURES) / sizeof(GESTURES[0]))
 
 //OLED
-#define SCREEN_WIDTH 128 // OLED display width, in pixels
-#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+//#define SCREEN_WIDTH 128 // OLED display width, in pixels
+//#define SCREEN_HEIGHT 64 // OLED display height, in pixels
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
-#define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
-#define SCREEN_ADDRESS 0x3C ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+//#define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
+//#define SCREEN_ADDRESS 0x3C ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
+//Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 
 // Create a service and characteristic for the IMU data
-BLEService imuService("181A"); // Environmental Sensing service
-BLECharacteristic imuCharacteristic("2A58", BLERead | BLEWrite, 40); // Increased length for string data
+// BLEService imuService("181A"); // Environmental Sensing service
+// BLECharacteristic imuCharacteristic("2A58", BLERead | BLEWrite, 40); // Increased length for string data
 
 
 void setup() {
   Serial.begin(115200);
-  while (!Serial);
+  while (!Serial && millis() < 5000) {}
 
-  if (myIMU.begin() != 0) {
-    Serial.println("Device error");
-  } else {
-    Serial.println("Device OK!");
-  }
 
     // Initialize BLE
-  if (!BLE.begin()) {
-    Serial.println("Starting BLE failed!");
-    while (1);
+  // if (!BLE.begin()) {
+  //   if (Serial) Serial.println("Starting BLE failed!");
+  //   while (1);
+  // } else {
+  //   if (Serial) Serial.println("BLE initialized successfully.");
+  // }
+  // BLE.setLocalName("XIAO_IMU_Sense");
+  // BLE.setAdvertisedService(imuService);
+  // BLE.setAdvertisedServiceUuid("19B10000-E8F2-537E-4F6C-D104768A1214");
+  // imuService.addCharacteristic(imuCharacteristic);
+  // BLE.addService(imuService);
+  // BLE.advertise();
+  // if (Serial) Serial.println("Advertising started");
+  // if (Serial) Serial.println();
+  // END: Initialize BLE
+
+
+  // Initialize IMU
+  if (myIMU.begin() != 0) {
+    if (Serial) Serial.println("Device error");
   } else {
-    Serial.println("BLE initialized successfully.");
+    if (Serial) Serial.println("Device OK!");
   }
 
-  BLE.setLocalName("XIAO_IMU_Sense");
-  BLE.setAdvertisedService(imuService);
-  BLE.setAdvertisedServiceUuid("19B10000-E8F2-537E-4F6C-D104768A1214");
-  imuService.addCharacteristic(imuCharacteristic);
-  BLE.addService(imuService);
-
-  BLE.advertise();
-
-  Serial.println("Advertising started");
-
-  Serial.println();
-
-  // get the TFL representation of the model byte array
+    // get the TFL representation of the model byte array
   tflModel = tflite::GetModel(model);
   if (tflModel->version() != TFLITE_SCHEMA_VERSION) {
-    Serial.println("Model schema mismatch!");
-    while (1);
+    if (Serial) Serial.println("Model schema mismatch!");
+    //while (1);
   }
 
   // Create an interpreter to run the model
@@ -115,55 +112,53 @@ void setup() {
   tflInputTensor = tflInterpreter->input(0);
   tflOutputTensor = tflInterpreter->output(0);
 
+
+
+
+
   //OLED
   // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
-  if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
-    Serial.println(F("SSD1306 allocation failed"));
-    for(;;); // Don't proceed, loop forever
-  }
+  //if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
+  //  Serial.println(F("SSD1306 allocation failed"));
+   // for(;;); // Don't proceed, loop forever
+  //}
   // Clear the buffer
-  display.clearDisplay();
-  display.display();
+  //display.clearDisplay();
+  //display.display();
 
   
 }
 
 void loop() {
 
-  // Listen for BLE central connections
-  BLEDevice central = BLE.central();
-
-  if (central) {
-    // Connected to central
-    Serial.print("Connected to central: ");
-    Serial.println(central.address());
-
-    // Check if the IMU data is available
-    while (central.connected()) {
-
-        imuCharacteristic.writeValue("test");
-
-        //delay(100); // Adjust the delay as needed
-    
-    }
-
-    // Disconnected from central
-    Serial.print("Disconnected from central: ");
-    Serial.println(central.address());
-  }
-
-  /*
+  //BLE.poll(); // Ensure BLE tasks are serviced
   
   float aX, aY, aZ, gX, gY, gZ;
 
-  display.clearDisplay();
-  display.setTextSize(2);
-  display.setTextColor(WHITE);
-  display.setCursor(32, 17);
-  display.println("HELLO");
-  display.display();
-  delay(2000);
+  //OLED
+  //display.clearDisplay();
+  //display.setTextSize(2);
+  //display.setTextColor(WHITE);
+  //display.setCursor(32, 17);
+  //display.println("HELLO");
+  //display.display();
+  //delay(2000);
 
+
+  // Listen for BLE central connections
+  // BLEDevice central = BLE.central();
+
+  // if (central) {
+  //   // Connected to central
+  //   if (Serial) Serial.print("Connected to central: ");
+  //   if (Serial) Serial.println(central.address());
+  // }
+
+  // if(central.connected()) {
+  //           imuCharacteristic.writeValue((byte)0x01);
+  // }
+
+   
   // wait for significant motion
   while (samplesRead == numSamples) {
       // read the acceleration data
@@ -185,27 +180,13 @@ void loop() {
   // check if the all the required samples have been read since
   // the last time the significant motion was detected
   while (samplesRead < numSamples) {
-    // check if new acceleration AND gyroscope data is available
-      // read the acceleration and gyroscope data
+    // check if new acceleration AND gyroscope data is available and read the acceleration and gyroscope data
       aX = myIMU.readFloatAccelX() * CONVERT_G_TO_MS2;
-      //Serial.print("ax:");
-      //Serial.println(aX);
       aY = myIMU.readFloatAccelY() * CONVERT_G_TO_MS2;
-      //Serial.print("aY:");
-      //Serial.println(aY);
       aZ = myIMU.readFloatAccelZ() * CONVERT_G_TO_MS2;
-      //Serial.print("aZ:");
-      //Serial.println(aZ);
-
       gX = myIMU.readFloatGyroX();
-      //Serial.print("gX:");
-      //Serial.println(gX);
       gY = myIMU.readFloatGyroY();
-      //Serial.print("gY:");
-      //Serial.println(gY);
       gZ = myIMU.readFloatGyroZ();
-      //Serial.print("gZ:");
-      //Serial.println(gZ);
 
       // normalize the IMU data between 0 to 1 and store in the model's
       // input tensor
@@ -227,25 +208,36 @@ void loop() {
           return;
         }
 
-        // Loop through the output tensor values from the model
+        // for (int i = 0; i < NUM_GESTURES; i++) {
+        //   Serial.print(GESTURES[i]);
+        //   Serial.print(": ");
+        //   Serial.println(tflInputTensor->data.f[i], 6);
+        // }
+
+        //Loop through the output tensor values from the model
         for (int i = 0; i < NUM_GESTURES; i++) {
           Serial.print(GESTURES[i]);
           Serial.print(": ");
           Serial.println(tflOutputTensor->data.f[i], 6);
-
-         // imuCharacteristic.writeValue("test");
-          /* //LED
+          delay(1000);
           if(tflOutputTensor->data.f[i] > 0.8){
-              //display.clearDisplay();
-              display.setTextSize(2);
-              display.setTextColor(WHITE);
-              display.setCursor(32, 17);
-              display.println(GESTURES[i]);
-              display.display();
-              //delay(1000);
-          }*/
-    /*    }
+            digitalWrite(LED_RED, LOW);
+          }
+        //  //OLED
+        //   // if(tflOutputTensor->data.f[i] > 0.8){
+        //   //     //display.clearDisplay();
+        //   //     //display.setTextSize(2);
+        //   //     //display.setTextColor(WHITE);
+        //   //     //display.setCursor(32, 17);
+        //   //     //display.println(GESTURES[i]);
+        //   //     //display.display();
+        //   //     //delay(1000);
+        //   //     //if(central.connected()) {
+        //   //       //imuCharacteristic.writeValue((byte)0x01);
+        //   //     //}
+        //   // }
+        }
         Serial.println();
       }
-  }*/
+  }
 }
