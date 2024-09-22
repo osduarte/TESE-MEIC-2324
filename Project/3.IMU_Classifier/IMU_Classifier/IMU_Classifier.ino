@@ -36,7 +36,7 @@ TfLiteTensor* tflInputTensor = nullptr;
 TfLiteTensor* tflOutputTensor = nullptr;
 
 // Create a static memory buffer for TFLM
-constexpr int tensorArenaSize = 5 * 1024;
+constexpr int tensorArenaSize = 4 * 1024;
 byte tensorArena[tensorArenaSize] __attribute__((aligned(16)));
 
 // array to map gesture index to a name
@@ -70,7 +70,10 @@ void setup() {
   while (!Serial && millis() < 5000) {}
 
 
-    // Initialize BLE
+  pinMode(LED_BLUE, OUTPUT);
+
+
+  // Initialize BLE
   // if (!BLE.begin()) {
   //   if (Serial) Serial.println("Starting BLE failed!");
   //   while (1);
@@ -111,9 +114,6 @@ void setup() {
   // Get pointers for the model's input and output tensors
   tflInputTensor = tflInterpreter->input(0);
   tflOutputTensor = tflInterpreter->output(0);
-
-
-
 
 
   //OLED
@@ -220,9 +220,8 @@ void loop() {
           Serial.print(": ");
           Serial.println(tflOutputTensor->data.f[i], 6);
           delay(1000);
-          if(tflOutputTensor->data.f[i] > 0.8){
-            digitalWrite(LED_RED, LOW);
-          }
+          if(strcmp(GESTURES[i], GESTURES[0]) == 0 && tflOutputTensor->data.f[i] > 0.5){ digitalWrite(LED_RED, HIGH);  digitalWrite(LED_GREEN, LOW); }
+          if(strcmp(GESTURES[i], GESTURES[1]) == 0 && tflOutputTensor->data.f[i] > 0.5){ digitalWrite(LED_GREEN, HIGH); digitalWrite(LED_RED, LOW); }
         //  //OLED
         //   // if(tflOutputTensor->data.f[i] > 0.8){
         //   //     //display.clearDisplay();
