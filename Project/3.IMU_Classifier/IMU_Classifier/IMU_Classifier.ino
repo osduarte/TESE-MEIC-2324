@@ -36,7 +36,7 @@ TfLiteTensor* tflInputTensor = nullptr;
 TfLiteTensor* tflOutputTensor = nullptr;
 
 // Create a static memory buffer for TFLM
-constexpr int tensorArenaSize = 4 * 1024;
+constexpr int tensorArenaSize = 8 * 1024;
 byte tensorArena[tensorArenaSize] __attribute__((aligned(16)));
 
 // array to map gesture index to a name
@@ -61,8 +61,8 @@ const char* GESTURES[] = {
 
 
 // Create a service and characteristic for the IMU data
-// BLEService imuService("181A"); // Environmental Sensing service
-// BLECharacteristic imuCharacteristic("2A58", BLERead | BLEWrite, 40); // Increased length for string data
+BLEService imuService("181A"); // Environmental Sensing service
+BLECharacteristic imuCharacteristic("2A58", BLERead | BLEWrite | BLENotify, 40); // Increased length for string data
 
 
 void setup() {
@@ -70,24 +70,21 @@ void setup() {
   while (!Serial && millis() < 5000) {}
 
 
-  pinMode(LED_BLUE, OUTPUT);
-
-
   // Initialize BLE
-  // if (!BLE.begin()) {
-  //   if (Serial) Serial.println("Starting BLE failed!");
-  //   while (1);
-  // } else {
-  //   if (Serial) Serial.println("BLE initialized successfully.");
-  // }
-  // BLE.setLocalName("XIAO_IMU_Sense");
-  // BLE.setAdvertisedService(imuService);
-  // BLE.setAdvertisedServiceUuid("19B10000-E8F2-537E-4F6C-D104768A1214");
-  // imuService.addCharacteristic(imuCharacteristic);
-  // BLE.addService(imuService);
-  // BLE.advertise();
-  // if (Serial) Serial.println("Advertising started");
-  // if (Serial) Serial.println();
+  if (!BLE.begin()) {
+    if (Serial) Serial.println("Starting BLE failed!");
+    while (1);
+  } else {
+    if (Serial) Serial.println("BLE initialized successfully.");
+  }
+  BLE.setLocalName("XIAO_IMU_Sense");
+  BLE.setAdvertisedService(imuService);
+  BLE.setAdvertisedServiceUuid("19B10000-E8F2-537E-4F6C-D104768A1214");
+  imuService.addCharacteristic(imuCharacteristic);
+  BLE.addService(imuService);
+  BLE.advertise();
+  if (Serial) Serial.println("Advertising started");
+  if (Serial) Serial.println();
   // END: Initialize BLE
 
 
@@ -110,11 +107,13 @@ void setup() {
 
   // Allocate memory for the model's input and output tensors
   tflInterpreter->AllocateTensors();
+  if (tflInterpreter->AllocateTensors() != kTfLiteOk) {
+    if (Serial) Serial.println("AllocateTensors failed!");
+  };
 
   // Get pointers for the model's input and output tensors
   tflInputTensor = tflInterpreter->input(0);
   tflOutputTensor = tflInterpreter->output(0);
-
 
   //OLED
   // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
@@ -125,8 +124,6 @@ void setup() {
   // Clear the buffer
   //display.clearDisplay();
   //display.display();
-
-  
 }
 
 void loop() {
@@ -146,19 +143,18 @@ void loop() {
 
 
   // Listen for BLE central connections
-  // BLEDevice central = BLE.central();
+  BLEDevice central = BLE.central();
 
-  // if (central) {
-  //   // Connected to central
-  //   if (Serial) Serial.print("Connected to central: ");
-  //   if (Serial) Serial.println(central.address());
-  // }
+  if (central) {
+    // Connected to central
+    if (Serial) Serial.print("Connected to central: ");
+    if (Serial) Serial.println(central.address());
+  }
 
-  // if(central.connected()) {
-  //           imuCharacteristic.writeValue((byte)0x01);
-  // }
+  if(central.connected()) {
+    imuCharacteristic.writeValue((byte)0x00);
+  }
 
-   
   // wait for significant motion
   while (samplesRead == numSamples) {
       // read the acceleration data
@@ -208,20 +204,14 @@ void loop() {
           return;
         }
 
-        // for (int i = 0; i < NUM_GESTURES; i++) {
-        //   Serial.print(GESTURES[i]);
-        //   Serial.print(": ");
-        //   Serial.println(tflInputTensor->data.f[i], 6);
-        // }
-
         //Loop through the output tensor values from the model
         for (int i = 0; i < NUM_GESTURES; i++) {
           Serial.print(GESTURES[i]);
           Serial.print(": ");
           Serial.println(tflOutputTensor->data.f[i], 6);
           delay(1000);
-          if(strcmp(GESTURES[i], GESTURES[0]) == 0 && tflOutputTensor->data.f[i] > 0.5){ digitalWrite(LED_RED, HIGH);  digitalWrite(LED_GREEN, LOW); }
-          if(strcmp(GESTURES[i], GESTURES[1]) == 0 && tflOutputTensor->data.f[i] > 0.5){ digitalWrite(LED_GREEN, HIGH); digitalWrite(LED_RED, LOW); }
+          if(strcmp(GESTURES[i], GESTURES[0]) == 0 && tflOutputTensor->data.f[i] > 0.5){ digitalWrite(LED_RED, HIGH);   digitalWrite(LED_GREEN, LOW); imuCharacteristic.writeValue((byte)0x01); }
+          if(strcmp(GESTURES[i], GESTURES[1]) == 0 && tflOutputTensor->data.f[i] > 0.5){ digitalWrite(LED_GREEN, HIGH); digitalWrite(LED_RED, LOW);   imuCharacteristic.writeValue((byte)0x02); }
         //  //OLED
         //   // if(tflOutputTensor->data.f[i] > 0.8){
         //   //     //display.clearDisplay();
@@ -231,9 +221,6 @@ void loop() {
         //   //     //display.println(GESTURES[i]);
         //   //     //display.display();
         //   //     //delay(1000);
-        //   //     //if(central.connected()) {
-        //   //       //imuCharacteristic.writeValue((byte)0x01);
-        //   //     //}
         //   // }
         }
         Serial.println();
