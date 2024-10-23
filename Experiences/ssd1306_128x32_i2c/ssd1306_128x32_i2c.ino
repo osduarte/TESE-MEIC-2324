@@ -57,7 +57,7 @@ static const unsigned char PROGMEM logo_bmp[] =
   0b01110000, 0b01110000,
   0b00000000, 0b00110000 };
 
-void setup() {
+/*void setup() {
   Serial.begin(9600);
 
   // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
@@ -92,27 +92,61 @@ void setup() {
 
   delay(1000);
 
+}*/
+
+
+void setup() {
+  Serial.begin(115200);
+
+  // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
+  if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
+    Serial.println(F("SSD1306 allocation failed"));
+    for(;;); // Don't proceed, loop forever
+  }
+  display.clearDisplay();
+
+  display.setTextSize(1);
+  display.setTextColor(WHITE);
+  display.setCursor(40, 0);
+  display.println("Welcome");
+
+  display.setTextSize(1);
+  display.setTextColor(WHITE);
+  display.setCursor(40, 0);
+  display.println("This is");
+  display.println("a Splash");
+  display.println("Screen");
+
+  display.display();
+
+
+  delay(5000);
 }
 
-int counter = 0;  // Initialize a counter variable
+int16_t counter = 1;  // Initialize a counter variable
 
 void loop() {
-  display.clearDisplay();               // Clear the display each iteration
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(WHITE);
+  display.setCursor(40, 0);
+  display.println("This is");
+  //display.println("XXXXXXX");
+  display.println(counter);
 
-  display.setTextSize(1);               // Set text size
-  display.setTextColor(SSD1306_WHITE);  // Set text color
-  display.setCursor(0, 0);              // Set cursor position to top-left corner
-  display.cp437(true);         // Use full 256 char 'Code Page 437' font
+  display.display();
 
-  display.write(counter);
-
-  display.display();     
-  delay(100);                 // Update the display with the new content
 
   Serial.print("Displaying counter: "); // For debugging
   Serial.println(counter);              // Print the counter value in serial monitor
 
   counter++;                            // Increment the counter
+
+
+
+  //testdrawchar();
+
+
   delay(1000);                          // Delay for 1 second (1000ms) before the next update
 }
 
