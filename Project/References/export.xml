@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography">
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>When Your Wearables Become Your Fitness Mate</b:Title>
+    <b:Year>2020</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Xiaonan Guo</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Jian Liu</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Yingying Chen</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>when-your-wearables-become-your-fitness-mate</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Conference Proceedings</b:SourceType>
+    <b:Title>Attention-based bidirectional long short-term memory networks for relation classification</b:Title>
+    <b:Year>2016</b:Year>
+    <b:StandardNumber>9781510827592</b:StandardNumber>
+    <b:Publisher>Association for Computational Linguistics (ACL)</b:Publisher>
+    <b:Pages>207-212</b:Pages>
+    <b:JournalName>54th Annual Meeting of the Association for Computational Linguistics, ACL 2016 - Short Papers</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Peng</b:First>
+            <b:Last>Zhou</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Wei</b:First>
+            <b:Last>Shi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Jun</b:First>
+            <b:Last>Tian</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Zhenyu</b:First>
+            <b:Last>Qi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bingchen</b:First>
+            <b:Last>Li</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Hongwei</b:First>
+            <b:Last>Hao</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bo</b:First>
+            <b:Last>Xu</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>attention-based-bidirectional-long-short-term-memory-networks-for-relation-classification</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>A CNN-LSTM Approach to Human Activity Recognition</b:Title>
+    <b:Year>2020</b:Year>
+    <b:StandardNumber>9781728149851</b:StandardNumber>
+    <b:Publisher>IEEE</b:Publisher>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Ronald Mutegeki</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Dong Seog Han</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>a-cnn-lstm-approach-to-human-activity-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>1D Convolutional Neural Network Models for Human Activity Recognition</b:Title>
+    <b:Year>2020</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Jason Brownlee</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;machinelearningmastery.com&#x2F;cnn-models-for-human-activity-recognition-time-series-classification&#x2F;</b:URL>
+    <b:Tag>1d-convolutional-neural-network-models-for-human-activity-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Sensor data acquisition and processing parameters for human activity classification</b:Title>
+    <b:Year>2014</b:Year>
+    <b:Month>3</b:Month>
+    <b:StandardNumber>14248220</b:StandardNumber>
+    <b:Publisher>MDPI AG</b:Publisher>
+    <b:Pages>4239-4270</b:Pages>
+    <b:JournalName>Sensors (Switzerland)</b:JournalName>
+    <b:Volume>14</b:Volume>
+    <b:Issue>3</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Sebastian D.</b:First>
+            <b:Last>Bersch</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Djamel</b:First>
+            <b:Last>Azzi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Rinat</b:First>
+            <b:Last>Khusainov</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ifeyinwa E.</b:First>
+            <b:Last>Achumba</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Jana</b:First>
+            <b:Last>Ries</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>sensor-data-acquisition-and-processing-parameters-for-human-activity-classification</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Report</b:SourceType>
+    <b:Title>Real-time human activity recognition from accelerometer data using Convolutional Neural Networks</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Andrey</b:First>
+            <b:Last>Ignatov</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;doi.org&#x2F;.&#x2F;j.asoc...</b:URL>
+    <b:Tag>real-time-human-activity-recognition-from-accelerometer-data-using-convolutional-neural-networks</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Feature selection for wearable smartphone-based human activity recognition with able bodied, elderly, and stroke patients</b:Title>
+    <b:Year>2015</b:Year>
+    <b:Month>4</b:Month>
+    <b:StandardNumber>19326203</b:StandardNumber>
+    <b:Publisher>Public Library of Science</b:Publisher>
+    <b:JournalName>PLoS ONE</b:JournalName>
+    <b:Volume>10</b:Volume>
+    <b:Issue>4</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Nicole A.</b:First>
+            <b:Last>Capela</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Edward D.</b:First>
+            <b:Last>Lemaire</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Natalie</b:First>
+            <b:Last>Baddour</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>feature-selection-for-wearable-smartphone-based-human-activity-recognition-with-able-bodied,-elderly,-and-stroke-patients</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Report</b:SourceType>
+    <b:Title>Efficient dense labelling of human activity sequences from wearables using fully convolutional networks</b:Title>
+    <b:Year>2018</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Rui</b:First>
+            <b:Last>Yao</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Guosheng</b:First>
+            <b:Last>Lin</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Qinfeng</b:First>
+            <b:Last>Shi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Damith C</b:First>
+            <b:Last>Ranasinghe</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;doi.org&#x2F;.&#x2F;j.patcog...</b:URL>
+    <b:Tag>efficient-dense-labelling-of-human-activity-sequences-from-wearables-using-fully-convolutional-networks</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Design and Implementation of a Convolutional Neural Network on an Edge Computing Smartphone for Human Activity Recognition</b:Title>
+    <b:Year>2019</b:Year>
+    <b:StandardNumber>21693536</b:StandardNumber>
+    <b:Publisher>Institute of Electrical and Electronics Engineers Inc.</b:Publisher>
+    <b:Pages>133509-133520</b:Pages>
+    <b:JournalName>IEEE Access</b:JournalName>
+    <b:Volume>7</b:Volume>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Tahmina</b:First>
+            <b:Last>Zebin</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Patricia J.</b:First>
+            <b:Last>Scully</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Niels</b:First>
+            <b:Last>Peek</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Alexander J.</b:First>
+            <b:Last>Casson</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Krikor B.</b:First>
+            <b:Last>Ozanyan</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>design-and-implementation-of-a-convolutional-neural-network-on-an-edge-computing-smartphone-for-human-activity-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Report</b:SourceType>
+    <b:Title>Deep, Convolutional, and Recurrent Models for Human Activity Recognition using Wearables</b:Title>
+    <b:Year>2016</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Thomas</b:First>
+            <b:Last>Ploetz</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Nils Y</b:First>
+            <b:Last>Hammerla</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Shane</b:First>
+            <b:Last>Halloran</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Thomas</b:First>
+            <b:Last>Plötz</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;301818728</b:URL>
+    <b:Tag>deep,-convolutional,-and-recurrent-models-for-human-activity-recognition-using-wearables</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>AHAR: Adaptive CNN for Energy-Efficient Human Activity Recognition in Low-Power Edge Devices</b:Title>
+    <b:Year>2022</b:Year>
+    <b:Month>8</b:Month>
+    <b:StandardNumber>23274662</b:StandardNumber>
+    <b:Publisher>Institute of Electrical and Electronics Engineers Inc.</b:Publisher>
+    <b:Pages>13041-13051</b:Pages>
+    <b:JournalName>IEEE Internet of Things Journal</b:JournalName>
+    <b:Volume>9</b:Volume>
+    <b:Issue>15</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Nafiul</b:First>
+            <b:Last>Rashid</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Berken Utku</b:First>
+            <b:Last>Demirel</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Mohammad</b:First>
+            <b:Last>Abdullah Al Faruque</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>ahar:-adaptive-cnn-for-energy-efficient-human-activity-recognition-in-low-power-edge-devices</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>generic</b:SourceType>
+    <b:Title>Activity identification using body-mounted sensors - A review of classification techniques</b:Title>
+    <b:Year>2009</b:Year>
+    <b:StandardNumber>13616579</b:StandardNumber>
+    <b:Publisher>Institute of Physics Publishing</b:Publisher>
+    <b:JournalName>Physiological Measurement</b:JournalName>
+    <b:Volume>30</b:Volume>
+    <b:Issue>4</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Stephen J.</b:First>
+            <b:Last>Preece</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>John Y.</b:First>
+            <b:Last>Goulermas</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Laurence P.J.</b:First>
+            <b:Last>Kenney</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Dave</b:First>
+            <b:Last>Howard</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Kenneth</b:First>
+            <b:Last>Meijer</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Robin</b:First>
+            <b:Last>Crompton</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>activity-identification-using-body-mounted-sensors---a-review-of-classification-techniques</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Report</b:SourceType>
+    <b:Title>A Theoretical Analysis of Feature Pooling in Visual Recognition</b:Title>
+    <b:Year>2010</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Y-Lan</b:First>
+            <b:Last>Boureau</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Jean</b:First>
+            <b:Last>Ponce</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Jean Ponce@ens</b:First>
+            <b:Last>Fr</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Yann</b:First>
+            <b:Last>Lecun</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;221345753</b:URL>
+    <b:Tag>a-theoretical-analysis-of-feature-pooling-in-visual-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>A comprehensive study of activity recognition using accelerometers</b:Title>
+    <b:Year>2018</b:Year>
+    <b:Month>5</b:Month>
+    <b:StandardNumber>22279709</b:StandardNumber>
+    <b:Publisher>MDPI Multidisciplinary Digital Publishing Institute</b:Publisher>
+    <b:JournalName>Informatics</b:JournalName>
+    <b:Volume>5</b:Volume>
+    <b:Issue>2</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Niall</b:First>
+            <b:Last>Twomey</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Tom</b:First>
+            <b:Last>Diethe</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Xenofon</b:First>
+            <b:Last>Fafoutis</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Atis</b:First>
+            <b:Last>Elsts</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ryan</b:First>
+            <b:Last>McConville</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Peter</b:First>
+            <b:Last>Flach</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ian</b:First>
+            <b:Last>Craddock</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>a-comprehensive-study-of-activity-recognition-using-accelerometers</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Machine Learning Algorithms for Human Activity Recognition</b:Title>
+    <b:Year>2019</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>M.N.Saroja</b:First>
+            <b:Last>K.R.Baskaran</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>machine-learning-algorithms-for-human-activity-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Evaluate Machine Learning Algorithms for Human Activity Recognition</b:Title>
+    <b:Year>2020</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Jason Brownlee</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>evaluate-machine-learning-algorithms-for-human-activity-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Accelerometer-based human activity recognition using 1D convolutional neural network</b:Title>
+    <b:Year>2021</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>M Lazarova and A Aleksieva-Petrova</b:First>
+            <b:Last>S Tsokov</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>accelerometer-based-human-activity-recognition-using-1d-convolutional-neural-network</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>TinyML Empowered Transfer Learning on the Edge</b:Title>
+    <b:Year>2024</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Ali M. Hayajneh; Maryam Hafeez; Syed Ali Raza Zaidi; Des McLernon</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;ieeexplore.ieee.org&#x2F;document&#x2F;10459233?denied&#x3D;</b:URL>
+    <b:Tag>tinyml-empowered-transfer-learning-on-the-edge</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Feature extraction for human activity recognition on streaming data</b:Title>
+    <b:Year>2015</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Belkacem Fergani</b:First>
+            <b:Last>Nawel Yala</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>feature-extraction-for-human-activity-recognition-on-streaming-data</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>A Simple Guide to Data Preprocessing in Machine Learning</b:Title>
+    <b:Year>2021</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Pragati Baheti</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.v7labs.com&#x2F;blog&#x2F;data-preprocessing-guide</b:URL>
+    <b:Tag>a-simple-guide-to-data-preprocessing-in-machine-learning</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Iss2Image: A Novel Signal-Encoding Technique for CNN-Based Human Activity Recognition</b:Title>
+    <b:Year>2018</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Jaehun Bang 1ORCID, Thien Huynh-The Thien Huynh-The SciProfilesScilitPreprints.orgGoogle Scholar  1ORCID, Jongwon Lee 1, Jee-In Kim 2, * andSungyoung Lee 1, *</b:First>
+            <b:Last>Taeho Hur 1</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.mdpi.com&#x2F;1424-8220&#x2F;18&#x2F;11&#x2F;3910</b:URL>
+    <b:Tag>iss2image:-a-novel-signal-encoding-technique-for-cnn-based-human-activity-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Conference Proceedings</b:SourceType>
+    <b:Title>Convolutional Neural Networks for Human Activity Recognition using Mobile Sensors</b:Title>
+    <b:Year>2014</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Le T. Nguyen, Bo Yu, Ole J. Mengshoel, Jiang Zhu, Pang Wu, Joy Zhang</b:First>
+            <b:Last>Ming Zeng</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>convolutional-neural-networks-for-human-activity-recognition-using-mobile-sensors</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>web_page</b:SourceType>
+    <b:Title>Human Activity Recognition (HAR): Fundamentals, Models, Datasets</b:Title>
+    <b:Year>2023</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Deval Shah</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.v7labs.com&#x2F;blog&#x2F;human-activity-recognition#h3</b:URL>
+    <b:Tag>human-activity-recognition-(har):-fundamentals,-models,-datasets</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Comparison of Different Sets of Features for Human Activity Recognition by Wearable Sensors</b:Title>
+    <b:Year>2018</b:Year>
+    <b:JournalName>PubMed Central</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>* Gabriella Balestra, and Marco Knaflitz</b:First>
+            <b:Last>Samanta Rosati</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;pmc&#x2F;articles&#x2F;PMC6308535&#x2F;</b:URL>
+    <b:Tag>comparison-of-different-sets-of-features-for-human-activity-recognition-by-wearable-sensors</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Significant Features for Human Activity Recognition Using Tri-Axial Accelerometers</b:Title>
+    <b:Year>2022</b:Year>
+    <b:JournalName>MedCentral</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>1, * Blaine A. Price, 1, * Daniel Gooch, 1 Arosha K. Bandara, 1 and Bashar Nuseibeh</b:First>
+            <b:Last>Mohamed Bennasar</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;pmc&#x2F;articles&#x2F;PMC9572087&#x2F;</b:URL>
+    <b:Tag>significant-features-for-human-activity-recognition-using-tri-axial-accelerometers</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Report</b:SourceType>
+    <b:Title>Convolutional Neural Network for Hand Gesture Identification on FPGAs Electrical and Computer Engineering</b:Title>
+    <b:Year>2022</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Tiago Angélico</b:First>
+            <b:Last>Ang´</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Angélico</b:First>
+            <b:Last>Gonç</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>convolutional-neural-network-for-hand-gesture-identification-on-fpgas-electrical-and-computer-engineering</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Application of a tri-axial accelerometer to estimate jump frequency in volleyball</b:Title>
+    <b:Year>2015</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Jon M.</b:First>
+            <b:Last>Jarning</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Kam-Ming</b:First>
+            <b:Last>Mok</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bjorge H.</b:First>
+            <b:Last>Hansen</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Roald</b:First>
+            <b:Last>Bahr</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>application-of-a-tri-axial-accelerometer-to-estimate-jump-frequency-in-volleyball</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Convolutional Neural Networks for Human Activity Recognition Using Body-Worn Sensors</b:Title>
+    <b:Year>2018</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Fernando Moya</b:First>
+            <b:Last>Rueda</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>René</b:First>
+            <b:Last>Grzeszick</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Gernot A.</b:First>
+            <b:Last>Fink</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Sascha</b:First>
+            <b:Last>Feldhorst</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>ten Michael</b:First>
+            <b:Last>Hompel</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>convolutional-neural-networks-for-human-activity-recognition-using-body-worn-sensors</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Activity recognition in beach volleyball using a Deep Convolutional Neural Network</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Thomas</b:First>
+            <b:Last>Kautz</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Benjamin H.</b:First>
+            <b:Last>Groh</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Julius</b:First>
+            <b:Last>Hannink</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ulf</b:First>
+            <b:Last>Jensen</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Holger</b:First>
+            <b:Last>Strubberg</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bjoern M.</b:First>
+            <b:Last>Eskoﬁer</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>activity-recognition-in-beach-volleyball-using-a-deep-convolutional-neural-network</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>IMU-based Trick Classification in Skateboarding</b:Title>
+    <b:Year>2015</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Benjamin H.</b:First>
+            <b:Last>Groh</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Thomas</b:First>
+            <b:Last>Kautz</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Dominik</b:First>
+            <b:Last>Schuldhaus</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>imu-based-trick-classification-in-skateboarding</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Conference Proceedings</b:SourceType>
+    <b:Title>Binary Classification of Running Fatigue using a Single Inertial Measurement Unit</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>C.</b:First>
+            <b:Last>Buckley</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>M.A.</b:First>
+            <b:Last>O’ Reilly</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Adam Vallely</b:First>
+            <b:Last>Farrel</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>L.</b:First>
+            <b:Last>Clark</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>V.</b:First>
+            <b:Last>Longo</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>binary-classification-of-running-fatigue-using-a-single-inertial-measurement-unit</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Learning to Judge Like a Human: Convolutional Networks for Classification of Ski Jumping Errors</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Heik</b:First>
+            <b:Last>Brock</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Yuji</b:First>
+            <b:Last>Ohgi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>James</b:First>
+            <b:Last>Lee</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>learning-to-judge-like-a-human:-convolutional-networks-for-classification-of-ski-jumping-errors</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>An IMU-based Mobile System for Golf Putt Analysis</b:Title>
+    <b:Year>2015</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ulf</b:First>
+            <b:Last>Jensen</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Marcus</b:First>
+            <b:Last>Schmidt</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Marcos</b:First>
+            <b:Last>Hennig</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Frank A.</b:First>
+            <b:Last>Dassler</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Thomas</b:First>
+            <b:Last>Jaitner</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bjoern M.</b:First>
+            <b:Last>Eskofier</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>an-imu-based-mobile-system-for-golf-putt-analysis</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Understanding Machine Learning: From Theory to Algorithms</b:Title>
+    <b:Year>2014</b:Year>
+    <b:JournalName>Published 2014 by Cambridge University Press.</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Shai</b:First>
+            <b:Last>Shalev-Shwartz</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Shai</b:First>
+            <b:Last>Ben-David</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>understanding-machine-learning:-from-theory-to-algorithms</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>A Tutorial on Human Activity Recognition Using Body-Worn Inertial Sensors</b:Title>
+    <b:Year>2014</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Andreas</b:First>
+            <b:Last>Bulling</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ulf</b:First>
+            <b:Last>Blanke</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bernt</b:First>
+            <b:Last>Schiele</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>a-tutorial-on-human-activity-recognition-using-body-worn-inertial-sensors</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Automatic Classification of Sub-Techniques in Classical Cross-Country Skiing Using a Machine Learning Algorithm on Micro-Sensor Data</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ole Marius Hoel</b:First>
+            <b:Last>Rindal</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Trine M.</b:First>
+            <b:Last>Seeberg</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Johannes</b:First>
+            <b:Last>Tjønnås</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Pål</b:First>
+            <b:Last>Haugnes</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Øyvind</b:First>
+            <b:Last>Sandbakk</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>automatic-classification-of-sub-techniques-in-classical-cross-country-skiing-using-a-machine-learning-algorithm-on-micro-sensor-data</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>On-Sensor Online Learning and Classification Under 8 KB Memory</b:Title>
+    <b:Year>2023</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Mahesh</b:First>
+            <b:Last>Chowdhary</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Sayan Swapnil</b:First>
+            <b:Last>Saha</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>on-sensor-online-learning-and-classification-under-8-kb-memory</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>working_paper</b:SourceType>
+    <b:Title>Machine and deep learning for sport-specific movement recognition: a systematic review of model development and performance</b:Title>
+    <b:Year>2018</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Cust Emily E</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Sweeting Alice J</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Ball Kevin</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Robertson Sam</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.tandfonline.com&#x2F;doi&#x2F;full&#x2F;10.1080&#x2F;02640414.2018.1521769</b:URL>
+    <b:Tag>machine-and-deep-learning-for-sport-specific-movement-recognition:-a-systematic-review-of-model-development-and-performance</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Lightweight Run-Time Working Memory Compression for Deployment of Deep Neural Networks on Resource-Constrained</b:Title>
+    <b:Year>2021</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Zhepeng</b:First>
+            <b:Last>Wang</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Yawen</b:First>
+            <b:Last>Wu</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Zhenge</b:First>
+            <b:Last>Jia</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Yiyu</b:First>
+            <b:Last>Shi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Jingtong</b:First>
+            <b:Last>Hu</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>lightweight-run-time-working-memory-compression-for-deployment-of-deep-neural-networks-on-resource-constrained</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Real-Time Recognition of Physical Activities and Their Intensities Using Wireless Accelerometers and a Heart Rate Monitor </b:Title>
+    <b:Year>2007</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Emmanuel</b:First>
+            <b:Last>Munguia Tapia</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Stephen S.</b:First>
+            <b:Last>Intille</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>William</b:First>
+            <b:Last>Haskell</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Kent</b:First>
+            <b:Last>Larson</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Julie</b:First>
+            <b:Last>Wright</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Abby</b:First>
+            <b:Last>King</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Robert</b:First>
+            <b:Last>Friedman</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>real-time-recognition-of-physical-activities-and-their-intensities-using-wireless-accelerometers-and-a-heart-rate-monitor-</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Exploring Artificial Neural Networks Efficiency in Tiny Wearable Devices for Human Activity Recognition</b:Title>
+    <b:Year>2022</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Emanuele</b:First>
+            <b:Last>Lattanzi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Matteo</b:First>
+            <b:Last>Donati</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Valerio</b:First>
+            <b:Last>Freschi</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.mdpi.com&#x2F;1424-8220&#x2F;22&#x2F;7&#x2F;2637</b:URL>
+    <b:Tag>exploring-artificial-neural-networks-efficiency-in-tiny-wearable-devices-for-human-activity-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>TinyML - Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers</b:Title>
+    <b:Year>2019</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Warden Peter</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First></b:First>
+            <b:Last>Situnayake Daniel</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;books.google.pt&#x2F;books?hl&#x3D;en&amp;lr&#x3D;&amp;id&#x3D;tn3EDwAAQBAJ&amp;oi&#x3D;fnd&amp;pg&#x3D;PP1&amp;ots&#x3D;jqllbr-7A4&amp;sig&#x3D;GAqcAA99f2EPyvOjOaddMu8gzss&amp;redir_esc&#x3D;y#v&#x3D;onepage&amp;q&amp;f&#x3D;false</b:URL>
+    <b:Tag>tinyml---machine-learning-with-tensorflow-lite-on-arduino-and-ultra-low-power-microcontrollers</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>thesis</b:SourceType>
+    <b:Title>Embedded Machine Learning Using
+Microcontrollers in Wearable and Ambulatory Systems for Health and Care Applications: A Review</b:Title>
+    <b:Year>2022</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Maha S.</b:First>
+            <b:Last>Diab</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Esther</b:First>
+            <b:Last>Rodriguez-Villegas</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>embedded-machine-learning-using-microcontrollers-in-wearable-and-ambulatory-systems-for-health-and-care-applications:-a-review</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>thesis</b:SourceType>
+    <b:Title>A TinyML Approach to Human Activity Recognition</b:Title>
+    <b:Year>2022</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Shubham</b:First>
+            <b:Last>Gupta</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>a-tinyml-approach-to-human-activity-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Tiny ML for Gesture Recognition</b:Title>
+    <b:Year>2023</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Nourelhouda</b:First>
+            <b:Last>Lanraoui</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Cheyma</b:First>
+            <b:Last>Touati</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>tiny-ml-for-gesture-recognition</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Who is wearing me? TinyDL‐based user recognition in constrained personal devices</b:Title>
+    <b:Year>2021</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ramon</b:First>
+            <b:Last>Sanchez‐Iborra</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Antonio</b:First>
+            <b:Last>Skarmeta</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>who-is-wearing-me?-tinydl‐based-user-recognition-in-constrained-personal-devices</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>thesis</b:SourceType>
+    <b:Title>Improving Pedestrian Safety in Cities using Intelligent Wearable Systems</b:Title>
+    <b:Year>2019</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Stephen</b:First>
+            <b:Last>Xia</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Daniel</b:First>
+            <b:Last>de Godoy</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bashima</b:First>
+            <b:Last>Islam</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Md Tamzeed</b:First>
+            <b:Last>Islam</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Shahriar</b:First>
+            <b:Last>Nirjon</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Peter R.</b:First>
+            <b:Last>Kinget</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Xiaofan</b:First>
+            <b:Last>Jiang</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>improving-pedestrian-safety-in-cities-using-intelligent-wearable-systems</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>thesis</b:SourceType>
+    <b:Title>Edge device for movement pattern classification using neural
+network algorithms</b:Title>
+    <b:Year>2022</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ricardo</b:First>
+            <b:Last>Yauri</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Rafael</b:First>
+            <b:Last>Espino</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>edge-device-for-movement-pattern-classification-using-neural-network-algorithms</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>thesis</b:SourceType>
+    <b:Title>MICRONETS: NEURAL NETWORK ARCHITECTURES FOR DEPLOYING
+TINYML APPLICATIONS ON COMMODITY MICROCONTROLLERS</b:Title>
+    <b:Year>2021</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Colby</b:First>
+            <b:Last>Banbury</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Chuteng</b:First>
+            <b:Last>Zhou</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Igor</b:First>
+            <b:Last>Fedorov</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ramon Matas</b:First>
+            <b:Last>Navarro</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Urmish</b:First>
+            <b:Last>Thakker</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Dibakar</b:First>
+            <b:Last>Gope</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Vijay Janapa</b:First>
+            <b:Last>Reddi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Matthew</b:First>
+            <b:Last>Mattina</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Paul N.</b:First>
+            <b:Last>Whatmough</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>micronets:-neural-network-architectures-for-deploying-tinyml-applications-on-commodity-microcontrollers</b:Tag>
+  </b:Source>
+</b:Sources>
