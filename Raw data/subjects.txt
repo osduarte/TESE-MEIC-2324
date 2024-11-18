@@ -1,8 +1,0 @@
-A1 -  masculino - 19 anos - 1.75/60kg
-A2 - masculino - 62 anos - 1.80/85kg
-A3 - masculino - 20 anos - 1.80/115kg
-A4 - masculino - 25 anos - 1.77/91kg
-A5 - masculino - 57 anos - 1.71/103kg
-A6 - masculino - 45 anos - 1.79/87kg (Eng.)
-A7 - feminino - 22 anos - 1.63/63kg (Ref.)
-A8 - feminino - 19 anos - 1.61/64kg (tricep só com 1 peso)
