@@ -1,3 +1,6 @@
+Install Visual Code
+Install WSL
+
 > wsl
 
 //go where the project is "arduino_tinyml_workshop.ipynb"
