@@ -70,12 +70,13 @@ void setup() {
 
 
   // Initialize BLE
-  if (!BLE.begin()) {
+  while (!BLE.begin()) {
     if (Serial) Serial.println("Starting BLE failed!");
-    while (1);
-  } else {
-    if (Serial) Serial.println("BLE initialized successfully.");
-  }
+    delay (500);
+  } 
+  
+  if (Serial) Serial.println("BLE initialized successfully.");
+  
   BLE.setLocalName("XIAO_IMU_Sense");
   BLE.setAdvertisedService(imuService);
   BLE.setAdvertisedServiceUuid("19B10000-E8F2-537E-4F6C-D104768A1214");
