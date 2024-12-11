@@ -58,7 +58,7 @@ Contributions to this repository are welcome.
 ---
 
 ## Acknowledgments
-Special thanks to the advisors, collaborators, and institutions that supported the development of this project.
+Special thanks to ISEL that supported the development of this project.
 
 ---
 
