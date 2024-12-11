@@ -1,3 +1,5 @@
+![Description of Image]([path/to/image.png](https://github.com/osduarte/TESE-MEIC-2324/blob/main/logo_ISEL_principal_PNG.png))
+
 # TESE-MEIC-2324
 
 Welcome to the TESE-MEIC-2324 repository! This repository contains all the resources, documentation, and code related to a thesis project for the Master's in Computer Science and Engineering (MEIC) program for the 2023-2024 academic year. Below, you'll find an overview of the repository structure, its contents, and how to navigate it effectively.
