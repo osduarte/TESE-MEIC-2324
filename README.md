@@ -1,4 +1,4 @@
-![Description of Image]([path/to/image.png](https://github.com/osduarte/TESE-MEIC-2324/blob/main/logo_ISEL_principal_PNG.png))
+![ISEL](https://github.com/osduarte/TESE-MEIC-2324/blob/main/logo_ISEL_principal_PNG.png)
 
 # TESE-MEIC-2324
 
